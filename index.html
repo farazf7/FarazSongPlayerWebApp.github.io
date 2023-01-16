@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONG PLAYER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Poppins:wght@600&family=Roboto+Condensed:ital,wght@1,700&family=Rubik+Iso&family=Rubik+Mono+One&family=Rubik:ital,wght@1,900&family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="main_div">
+        <div id="button">
+            <a href="urdu.html" target="_blank" id="atag"><button id="btn">Urdu Songs</button></a>
+            <a href="urdu.html" target="_blank" id="atag2"><button id="btn2">English Songs</button></a>        
+        </div>
+  
+        <h2 id="song_h2">Created By_<span> M.</span>Faraz</h2>
+        <div class="music_container">
+            <h2 id="tital">Middle of the night</h2>
+            <h3 id="artist">Song by_Elley Duhe</h3>
+            <div class="img_container">
+                <img src="images/song1.jpg" alt="" width="280px" height="280px" id="image">
+            </div>
+            <audio src="songs/song1.mp3" controls id="controlar" ></audio>
+
+
+        <!-- -----------------Controls----------------- -->
+            <div class="music_controls">
+                <i class="fa-solid fa-circle-chevron-left" id="pre"></i>
+                <i class="fa-solid fa-circle-play" id="play"></i>
+                <i class="fa-solid fa-circle-chevron-right" id="next"></i>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
